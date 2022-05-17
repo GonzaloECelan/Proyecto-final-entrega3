@@ -1,0 +1,83 @@
+@import "../variables";
+@import "../sass2/extend";
+
+
+
+
+header{
+    
+    @extend .navegador;
+
+    .encabezado{
+        display: flex;
+        align-items: center;
+
+        .logotipo{
+            width: 105px;
+            height: 90px;
+            padding-left: 100px;
+            }
+            .nombre-empresa{
+                font-size: 30px ;
+                font-family: $font3;
+                padding-top: 15px;
+                color: $color4;
+                
+            }
+    }
+
+
+    
+    nav{
+        align-items: $alinear;
+        margin-right: 200px;
+
+        a{
+        margin: 25px;
+        color: $color4;
+        font-family: $font1;
+        font-size: 16px;
+        text-decoration: none;
+        position: relative;
+
+        &::after{
+        content:"";
+        width: 0;
+        height: 3px;
+        background-color: $color2;
+        position: absolute;
+        bottom: -8px;
+        right: 50%;
+        transition: all 0.4s ease;
+        will-change: width;
+        }
+        &:hover::after{
+            width: $ancho;
+            right: 0;
+
+        }
+
+        &:hover{
+            color: $color2;
+        }
+        }
+
+        
+    }
+
+    .icono{
+        margin-right: 40px;
+        align-items: $alinear;
+
+        i{
+            color: $color4;
+            font-size: 20px;
+            margin: 20px;
+
+            &:hover{
+                color: $color2;
+            }
+        }
+        
+    }
+}

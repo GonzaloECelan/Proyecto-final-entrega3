@@ -1,0 +1,532 @@
+.carrusel-img {
+  height: 700px;
+  position: absolute; }
+  .carrusel-img .banner1 {
+    height: 700px;
+    object-fit: cover; }
+  .carrusel-img .banner2 {
+    height: 700px;
+    object-fit: cover; }
+  .carrusel-img .banner3 {
+    height: 700px;
+    object-fit: cover; }
+
+.banner4 {
+  width: 1100px;
+  height: 350px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: black;
+  box-shadow: 10px 1px 30px rgba(4, 4, 4, 0.4);
+  transition: 2s; }
+  .banner4:hover {
+    transform: translateY(-10%); }
+  .banner4 img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    cursor: pointer; }
+
+.formulario {
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 30px 30px 30px 30px;
+  background-color: rgba(0, 0, 0, 0.588);
+  box-shadow: 7px 20px 20px #000;
+  backdrop-filter: blur(3px); }
+  .formulario h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    font-family: "Germania One", cursive; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido5 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+footer .grupo1 {
+  width: 100%;
+  margin-left: 100px;
+  display: flex;
+  color: white; }
+  footer .grupo1 .logopie {
+    width: 200px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 15px; }
+  footer .grupo1 h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 40px; }
+
+footer .caja2 {
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 50px; }
+  footer .caja2 h3 {
+    font-family: "Germania One", cursive;
+    font-size: 25px;
+    margin-left: 30px; }
+  footer .caja2 ul li {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3;
+    list-style: none;
+    cursor: pointer; }
+    footer .caja2 ul li:hover {
+      color: #E59866; }
+
+footer .caja3 {
+  margin-left: 100px;
+  margin-top: 50px; }
+  footer .caja3 h3 {
+    font-family: "Germania One", cursive;
+    font-size: 25px; }
+  footer .caja3 ul li {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3;
+    list-style: none;
+    cursor: pointer; }
+    footer .caja3 ul li:hover {
+      color: #E59866; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido5 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+header .encabezado {
+  display: flex;
+  align-items: center; }
+  header .encabezado .logotipo {
+    width: 105px;
+    height: 90px;
+    padding-left: 100px; }
+  header .encabezado .nombre-empresa {
+    font-size: 30px;
+    font-family: "Berkshire Swash", cursive;
+    padding-top: 15px;
+    color: white; }
+
+header nav {
+  align-items: center;
+  margin-right: 200px; }
+  header nav a {
+    margin: 25px;
+    color: white;
+    font-family: "Germania One", cursive;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative; }
+    header nav a::after {
+      content: "";
+      width: 0;
+      height: 3px;
+      background-color: #E59866;
+      position: absolute;
+      bottom: -8px;
+      right: 50%;
+      transition: all 0.4s ease;
+      will-change: width; }
+    header nav a:hover::after {
+      width: 100%;
+      right: 0; }
+    header nav a:hover {
+      color: #E59866; }
+
+header .icono {
+  margin-right: 40px;
+  align-items: center; }
+  header .icono i {
+    color: white;
+    font-size: 20px;
+    margin: 20px; }
+    header .icono i:hover {
+      color: #E59866; }
+
+.box {
+  display: flex; }
+  .box .contenedor2 {
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: 2s; }
+  .box h3 {
+    text-align: center;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 4px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .box p {
+    text-align: center;
+    line-height: 2.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold; }
+
+.pedidos {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #bcbcbc, white, white, white, #bcbcbc);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+  .pedidos .productos {
+    color: black;
+    font-family: "Germania One", cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3px;
+    position: absolute; }
+
+.contenido1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static; }
+  .contenido1 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido1 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido1 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido1 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido1 .contenedor .informacion {
+      text-align: center; }
+    .contenido1 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido1 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido1 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido1 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -30px; }
+  .contenido2 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido2 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido2 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido2 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido2 .contenedor .informacion {
+      text-align: center; }
+    .contenido2 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido2 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido2 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido2 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -30px;
+  margin-bottom: 100px; }
+  .contenido3 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido3 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido3 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido3 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido3 .contenedor .informacion {
+      text-align: center; }
+    .contenido3 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido3 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido3 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido3 .comprar:hover {
+    background-color: #E59866; }
+
+.contenido4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -130px;
+  margin-bottom: 50px; }
+  .contenido4 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido4 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido4 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido4 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido4 .contenedor .informacion {
+      text-align: center; }
+    .contenido4 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido4 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido4 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido4 .comprar:hover {
+    background-color: #E59866; }
+
+.off h3 {
+  font-family: "Germania One", cursive;
+  text-align: center; }
+
+.contenido5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: static;
+  margin-top: -10px;
+  margin-bottom: 50px; }
+  .contenido5 .contenedor {
+    max-width: 250px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease; }
+    .contenido5 .contenedor:hover {
+      box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+      transform: scale(1.02);
+      border-radius: 10px; }
+    .contenido5 .contenedor .tajeta {
+      width: 250px;
+      cursor: pointer;
+      transition: all 400ms ease; }
+    .contenido5 .contenedor .descuento {
+      background-color: #E59866;
+      margin-right: 180px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 13px; }
+    .contenido5 .contenedor img {
+      width: 100%;
+      margin-top: 10px; }
+    .contenido5 .contenedor .informacion {
+      text-align: center; }
+    .contenido5 .contenedor h2 {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenido5 .contenedor .precio1 {
+      text-decoration: line-through;
+      font-size: 15px;
+      color: #605f5f;
+      margin-left: -9px; }
+    .contenido5 .contenedor span {
+      font-size: 17px;
+      margin-right: 170px; }
+  .contenido5 .comprar span {
+    font-size: 15px;
+    margin-left: 5px; }
+  .contenido5 .comprar:hover {
+    background-color: #E59866; }
+
+.ubicacion1 {
+  width: 600px;
+  margin: auto;
+  height: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.588);
+  box-shadow: 7px 20px 20px #000;
+  backdrop-filter: blur(3px);
+  border-radius: 6px; }
+  .ubicacion1 h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Germania One", cursive;
+    color: white;
+    font-size: 30px; }
+  .ubicacion1 iframe {
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 50px; }
+
+.contenedor-img {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px;
+  gap: 20px; }
+  .contenedor-img figure {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out; }
+    .contenedor-img figure:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+      border-radius: 10px; }
+  .contenedor-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; }
+  .contenedor-img .caja1 {
+    grid-column: span 2; }
+  .contenedor-img .caja4 {
+    grid-row: span 2; }
+
+.navegador, header {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky; }
+
+.piedepagina, footer {
+  width: 100%;
+  background-color: black;
+  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
+
+.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido5 .comprar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: static; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

@@ -1,0 +1,35 @@
+@import "../variables";
+
+
+.box{
+    display: $displey;
+
+    .contenedor2{
+        width: 500px;
+        height: 700px;
+        margin-left: 100px;
+        margin-top: 50px;
+        transition: 2s;
+        
+    }
+    h3{
+        text-align: $alinear;
+        font-family: $font3;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: italic;
+        border-bottom: 4px solid black;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        }
+
+        p{
+            text-align: $alinear;
+            line-height: 2.5;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+}

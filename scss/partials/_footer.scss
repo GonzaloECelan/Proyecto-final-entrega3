@@ -1,0 +1,76 @@
+@import "../variables";
+@import "../sass2/extend";
+
+footer{
+
+    @extend .piedepagina;
+
+    .grupo1{
+        width: $ancho;
+        margin-left: 100px;
+        display: $displey;
+        color: $color4;
+
+        .logopie{
+            width: 200px;
+            height: 180px;
+            margin-left: 50px;
+            margin-top: 15px;
+            
+        }
+        h2{
+            font-family: $font3;
+            font-size: 40px;
+        
+        }
+    
+    }
+
+    .caja2{
+        margin-left: 100px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+
+        h3{
+            font-family: $font1;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+        ul li{
+            margin-top: 20px;
+            font-size: 15px;
+            font-family: $font2;
+            line-height: 1.3;
+            list-style: none;
+            cursor: pointer;
+
+            &:hover{
+                color: $color2;
+            }
+        }
+    }
+
+    .caja3{
+        margin-left: 100px;
+        margin-top:50px ;
+
+        h3{
+            font-family: $font1;
+            font-size: 25px;
+        
+        }
+
+        ul li{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: $font2;
+            line-height: 1.3;
+            list-style: none;
+            cursor: pointer;
+
+            &:hover{
+                color: $color2;
+            }
+        }
+    }
+}
