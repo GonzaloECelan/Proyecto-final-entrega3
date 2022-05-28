@@ -18,9 +18,11 @@
     }
 }
 
+
+
 .banner4{
-    width: 1100px;
-    height: 350px;
+    width: 1120px;
+    height: 360px;
     margin: auto;
     margin-bottom: 50px;
     background-color: black;
@@ -40,4 +42,28 @@
     }
     
     
+}
+
+
+@media all and (max-width: 768px) {
+    
+    .carrusel-img{
+        height: 400px;
+        width: 100%;
+    }
+
+    .banner1{
+        height: -400px;
+        object-fit: cover;
+    }
+    .banner2{
+        height: -400px;
+        
+        object-fit: cover;
+    
+    }
+    .banner3{
+        height: -400px;
+        object-fit: cover;
+    }
 }

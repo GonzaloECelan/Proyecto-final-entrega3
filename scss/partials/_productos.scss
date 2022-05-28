@@ -279,11 +279,43 @@
     
 }
 
-.off h3{
-    font-family:$font1;
-    text-align: $alinear;
-    
+.off{
+    margin-left: 750px;
+
+    button {
+        border: 0;
+        background:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em 1em 1em 3em;
+        position: relative;
+        overflow: hidden;
+        font-size: 30px;
+        font-family: $font1;
+        border-radius: 12px;
+       }
+       
+       button svg {
+        position: absolute;
+        left: .4em;
+        width: 40px;
+        height: 40px;
+        transform: rotateY(-180deg);
+        transition: transform .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+       }
+       
+       button:hover svg {
+        transform: rotateY(-180deg) translateX(-.25em);
+       }
+       
+       button:active {
+        transform: scale(0.98);
+       }
+
 }
+
+
 
 .contenido5{
     @include contenedor-t;
@@ -348,19 +380,96 @@
         }
         
         }
-        .comprar{
-            
-            @extend .boton;
+        
+        }
 
-            span{
-                font-size: 15px;
-                margin-left: 5px;
-            }
-
-            &:hover{
-                background-color: $color2;
-            }
-            
+        .comprar-{
+            button{
+                @extend .boton_;
+               }
+               button::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0;
+                border-radius: 15px;
+                background-color: #212121;
+                z-index: -1;
+                -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+                box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+                transition: all 250ms
+               }
+               button:hover {
+                color: #e8e8e8;
+               }
+               
+               button:hover::before {
+                width: 100%;
+               }
         }
     
-}
+        .contenido6{
+            @include contenedor-t;
+            margin-top: -80px;
+            margin-bottom: 50px;
+        
+            .contenedor{
+                max-width: 250px;
+                margin: 20px;
+                margin-top: 50px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 15px;
+                cursor: pointer;
+                transition: all 400ms ease;
+        
+                &:hover{
+                    box-shadow: 0 0 1.5em rgba(6, 6, 6, 0.4);
+                    transform: scale(1.02);
+                    border-radius: 10px;
+                }
+        
+                .tajeta{
+                    width: 250px;
+                    cursor: pointer;
+                    transition: all 400ms ease;
+                }
+                img{
+                    width: $ancho;
+                    margin-top: 10px;
+                    
+                }
+                .informacion{
+                    text-align: $alinear;
+                }
+                h2{
+                    font-size: 15px;
+                    font-weight: bold;
+                    font-family: $font2;
+                }
+                span{
+                    font-size: 17px;
+                    margin-right: 170px;
+                
+                    
+                }
+                
+                }
+                .comprar{
+                    
+                    @extend .boton;
+        
+                    span{
+                        font-size: 15px;
+                        margin-left: 5px;
+                    }
+        
+                    &:hover{
+                        background-color: $color2;
+                    }
+                    
+                }
+            
+        
+        }

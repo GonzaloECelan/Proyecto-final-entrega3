@@ -32,3 +32,20 @@
         position: static;
         
 }
+
+.boton_{
+    padding: 5px 25px;
+                border: unset;
+                border-radius: 15px;
+                color: #212121;
+                z-index: 1;
+                background: #e8e8e8;
+                position: relative;
+                font-size: 15px;
+                -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+                box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+                transition: all 250ms;
+                overflow: hidden;
+                margin-top: 15px;
+                margin-bottom: 10px;
+}
