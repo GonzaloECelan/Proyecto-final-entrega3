@@ -45,25 +45,62 @@
 }
 
 
-@media all and (max-width: 768px) {
-    
-    .carrusel-img{
-        height: 400px;
-        width: 100%;
+@media (max-width:375px) {
+
+    .banner4{
+        width: 370px;
+        height: 130px;
     }
 
-    .banner1{
-        height: -400px;
-        object-fit: cover;
-    }
-    .banner2{
-        height: -400px;
-        
-        object-fit: cover;
+    .carrusel-img{
+        height: 350px;
+        position: absolute;
+        width: 375px;
     
+        .banner1{
+            height: 350px;
+            object-fit: cover;
+        }
+        .banner2{
+            height: 350px;
+            
+            object-fit: cover;
+        
+        }
+        .banner3{
+            height: 350px;
+            object-fit: cover;
+        }
     }
-    .banner3{
-        height: -400px;
-        object-fit: cover;
+    
+}
+
+@media (max-width:412px) {
+
+    .banner4{
+        width: 400px;
+        height: 150px;
     }
+
+    .carrusel-img{
+        height: 400px;
+        position: absolute;
+        width: 412px;
+    
+        .banner1{
+            height: 400px;
+            object-fit: cover;
+        }
+        .banner2{
+            height: 400px;
+            
+            object-fit: cover;
+        
+        }
+        .banner3{
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+    
 }

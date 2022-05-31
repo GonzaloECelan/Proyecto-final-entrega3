@@ -44,6 +44,52 @@
 	margin-top:16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:375px) {
+
+  .formulario{
+    width: 360px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    
+    h2{
+        text-align: $alinear;
+        color: $color4;
+        padding-bottom: 15px;
+        font-family: $font1;
+    }
+}
   
+}
+
+@media (max-width:375px) {
+
+  .float{
+    position:fixed;
+    width:40px;
+    height:40px;
+    bottom:20px;
+    right:10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:10px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+  }
+  
+  .my-float{
+    margin-top:10px;
+  }
+
 }

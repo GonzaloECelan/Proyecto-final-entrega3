@@ -27,19 +27,41 @@
     transition: 1s;
     cursor: pointer; }
 
-@media all and (max-width: 768px) {
+@media (max-width: 375px) {
+  .banner4 {
+    width: 370px;
+    height: 130px; }
+  .carrusel-img {
+    height: 350px;
+    position: absolute;
+    width: 375px; }
+    .carrusel-img .banner1 {
+      height: 350px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 350px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 350px;
+      object-fit: cover; } }
+
+@media (max-width: 412px) {
+  .banner4 {
+    width: 400px;
+    height: 150px; }
   .carrusel-img {
     height: 400px;
-    width: 100%; }
-  .banner1 {
-    height: -400px;
-    object-fit: cover; }
-  .banner2 {
-    height: -400px;
-    object-fit: cover; }
-  .banner3 {
-    height: -400px;
-    object-fit: cover; } }
+    position: absolute;
+    width: 412px; }
+    .carrusel-img .banner1 {
+      height: 400px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 400px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 400px;
+      object-fit: cover; } }
 
 .formulario {
   width: 400px;
@@ -77,6 +99,43 @@
 
 .my-float {
   margin-top: 16px; }
+
+@media (max-width: 375px) {
+  .formulario {
+    width: 360px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px); }
+    .formulario h2 {
+      text-align: center;
+      color: white;
+      padding-bottom: 15px;
+      font-family: "Germania One", cursive; } }
+
+@media (max-width: 375px) {
+  .float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff; }
+  .my-float {
+    margin-top: 10px; } }
 
 .navegador, header {
   background-color: black;
@@ -205,15 +264,141 @@ footer {
 .my-float {
   margin-top: 16px; }
 
-@media all and (max-width: 500px) {
+@media (max-width: 375px) {
   footer {
-    width: 100%; }
-  .grupo_ {
-    flex-direction: column; }
-  .logopie {
-    width: 10px;
-    height: 10px;
-    margin-left: 45px; } }
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static;
+      margin-left: -190px; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        width: 370px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 120px;
+          height: 100px;
+          margin-left: 120px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 30px;
+          margin-top: 1px;
+          margin-left: 65px; }
+      footer .grupo_ .caja2 {
+        margin-top: 10px;
+        width: 370px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 10px;
+        margin-left: 30px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 375px;
+      color: white;
+      margin-top: -40px;
+      font-size: 10px;
+      background-color: black;
+      margin-left: -0px; } }
+
+@media (max-width: 412px) {
+  footer {
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static;
+      margin-left: -190px; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        width: 370px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 120px;
+          height: 100px;
+          margin-left: 140px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 30px;
+          margin-top: 1px;
+          margin-left: 85px; }
+      footer .grupo_ .caja2 {
+        margin-top: 10px;
+        width: 370px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 10px;
+        margin-left: 30px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 412px;
+      color: white;
+      margin-top: -70px;
+      font-size: 10px;
+      background-color: black;
+      margin-left: -0px; } }
 
 .navegador, header {
   background-color: black;
@@ -305,6 +490,56 @@ header .icono {
     header .icono i:hover {
       color: #E59866; }
 
+@media (max-width: 375px) {
+  header .encabezado {
+    display: flex;
+    align-items: center; }
+    header .encabezado .logotipo {
+      width: 100px;
+      height: 80px;
+      margin-left: -100px; }
+    header .encabezado .nombre-empresa {
+      font-size: 25px;
+      font-family: "Berkshire Swash", cursive;
+      padding-top: 15px;
+      color: white; }
+  header nav {
+    align-items: center;
+    margin-right: 200px;
+    display: none; }
+    header nav a {
+      margin: 25px;
+      color: white;
+      font-family: "Germania One", cursive;
+      font-size: 16px;
+      text-decoration: none;
+      position: relative; }
+      header nav a::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: #E59866;
+        position: absolute;
+        bottom: -8px;
+        right: 50%;
+        transition: all 0.4s ease;
+        will-change: width; }
+      header nav a:hover::after {
+        width: 100%;
+        right: 0; }
+      header nav a:hover {
+        color: #E59866; }
+  header .icono {
+    margin-right: 40px;
+    align-items: center;
+    display: none; }
+    header .icono i {
+      color: white;
+      font-size: 20px;
+      margin: 20px; }
+      header .icono i:hover {
+        color: #E59866; } }
+
 .box {
   display: flex;
   height: 900px; }
@@ -369,6 +604,45 @@ header .icono {
 
 .my-float {
   margin-top: 16px; }
+
+@media (max-width: 375px) {
+  .box {
+    display: flex;
+    height: 600px; }
+    .box img {
+      width: 375px;
+      height: 600px; }
+    .box .contenedor2 {
+      max-width: 350px;
+      margin: auto;
+      height: 500px;
+      margin-top: 50px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.475);
+      border-radius: 4px;
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+    .box h3 {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: italic;
+      border-bottom: 3px solid white;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .box p {
+      text-align: center;
+      line-height: 2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+      margin-left: 10px;
+      font-weight: bold;
+      position: absolute;
+      color: white; } }
 
 .pedidos {
   display: flex;
@@ -683,6 +957,120 @@ header .icono {
   .contenido6 .comprar:hover {
     background-color: #E59866; }
 
+@media (max-width: 375px) {
+  .pedidos {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #bcbcbc, white, white, white, #bcbcbc);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+    .pedidos .productos {
+      color: black;
+      font-family: "Germania One", cursive;
+      font-size: 17px;
+      text-align: center;
+      margin-top: -3px;
+      position: absolute; }
+  .off {
+    margin-left: 50px;
+    margin-bottom: 20px; }
+    .off button {
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0); } }
+
+@media (max-width: 375px) {
+  .contenido1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px;
+    margin-top: 20px; }
+    .contenido1 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido1 .tarjeta {
+      width: 180px; }
+      .contenido1 .tarjeta img {
+        width: 180px;
+        height: 180px; }
+  .contenido2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .contenido2 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido2 .tarjeta {
+      width: 180px; }
+      .contenido2 .tarjeta img {
+        width: 180px;
+        height: 180px; }
+  .contenido3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px;
+    margin-bottom: 10px; }
+    .contenido3 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido3 .tarjeta {
+      width: 180px; }
+      .contenido3 .tarjeta img {
+        width: 180px;
+        height: 180px; }
+  .contenido4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px; }
+    .contenido4 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido4 .tarjeta {
+      width: 180px; }
+      .contenido4 .tarjeta img {
+        width: 180px;
+        height: 180px; }
+  .contenido5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px; }
+    .contenido5 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido5 .tarjeta {
+      width: 180px; }
+      .contenido5 .tarjeta img {
+        width: 180px;
+        height: 180px; }
+  .contenido6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    margin-left: 80px; }
+    .contenido6 .contenedor {
+      max-width: 180px;
+      margin-top: 5px; }
+    .contenido6 .tarjeta {
+      width: 180px; }
+      .contenido6 .tarjeta img {
+        width: 180px;
+        height: 180px; } }
+
 .ubicacion1 {
   width: 600px;
   margin: auto;
@@ -752,8 +1140,7 @@ header .icono {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 3px;
-    border: 1px solid black; }
+    border-radius: 3px; }
 
 .float {
   position: fixed;
@@ -776,6 +1163,33 @@ header .icono {
 
 .my-float {
   margin-top: 16px; }
+
+@media (max-width: 375px) {
+  .contenedor-img {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px;
+    gap: 15px; }
+    .contenedor-img .caja {
+      width: 100%;
+      height: 200px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      border-radius: 3px; }
+      .contenedor-img .caja:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+        border-radius: 3px; }
+    .contenedor-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px; } }
 
 .navegador, header {
   background-color: black;

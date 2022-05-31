@@ -473,3 +473,197 @@
             
         
         }
+
+
+        @media (max-width: 375px) {
+
+            .pedidos{
+                display: $displey;
+                justify-content: $alinear;
+                background-image:linear-gradient(to right, rgb(188, 188, 188),white, white,white,rgb(188, 188, 188));
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: $ancho;
+                height: 35px;
+                box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5);
+            
+                .productos{
+                    color: $color1;
+                    font-family: $font1;
+                    font-size: 17px;
+                    text-align: $alinear;
+                    margin-top: -3px;
+                    position: absolute;
+                    
+                    
+                }
+                
+            }
+
+            .off{
+                margin-left: 50px;
+                margin-bottom: 20px;
+
+                button{
+                    font-size: 20px;
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                
+            }
+        
+            
+            
+        }
+
+        @media (max-width: 375px) {
+
+            
+
+            .contenido1{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+               margin-top: 20px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+
+            .contenido2{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+               margin-top: 10px;
+               margin-bottom: 10px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+            .contenido3{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+               margin-bottom: 10px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+            .contenido4{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+
+            .contenido5{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+            
+            .contenido6{
+                display: $displey;
+                justify-content: center;
+                flex-direction: column;
+                position: static;
+               margin-left: 80px;
+
+               .contenedor{
+                max-width: 180px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 180px;
+
+                img{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            }
+
+
+
+
+        }
+
+        
+        
