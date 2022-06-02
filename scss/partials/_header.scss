@@ -32,6 +32,12 @@ header{
         align-items: $alinear;
         margin-right: 200px;
 
+        ul{
+            list-style: none;
+            display: flex;
+            margin-top: 20px;
+        }
+
         a{
         margin: 25px;
         color: $color4;
@@ -80,11 +86,175 @@ header{
         }
         
     }
+
+    
+#btn-menu{
+    display: none;
+
 }
+.boton-menu{
+    display: none;
+    font-size: 25px;
+    color: $color4;
+    margin-right: 10px;
+    cursor: pointer;
+    
+
+    &:hover{
+    color: $color2;
+    }
+    
+}
+}
+
+
+
+
+
 
 @media (max-width:375px) {
 
+    
+header{
+    width: 375px;
+
+    .encabezado{
+        display: flex;
+        align-items: center;
+
+        .logotipo{
+            width: 100px;
+            height: 80px;
+            margin-left: -60px;
+            }
+            .nombre-empresa{
+                font-size: 20px ;
+                font-family: $font3;
+                padding-top: 15px;
+                color: $color4;
+                
+            }
+    }
+
+
+    
+    .menu{
+        align-items: $alinear;
+        position: absolute;
+        margin-top: 50px;
+        font-size: 30px;
+
+        ul{
+            position: absolute;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            width: 375px;
+            transition: all 0.5s;
+            padding-bottom: 15px;
+            padding-right: 50px;
+
+            li{
+
+                transition: all 0.5s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+
+            
+        
+        }
+
+
+        a{
+        color: $color4;
+        font-family: $font1;
+        font-size: 16px;
+        text-decoration: none;
+        position: relative;
+
+        &:hover{
+            transform: scale(1.04);
+        }
+
+    
+
+        &::after{
+        content:"";
+        width: 0;
+        height: 2px;
+        background-color: $color2;
+        position: absolute;
+        bottom: -8px;
+        right: 50%;
+        transition: all 0.4s ease;
+        will-change: width;
+        
+        }
+        &:hover::after{
+            width: $ancho;
+            right: 0;
+            
+
+        }
+
+        &:hover{
+            color: $color2;
+            
+        }
+        }
+
+        
+    }
+
+    .icono{
+        margin-right: 40px;
+        align-items: $alinear;
+        display: none;
+
+        i{
+            color: $color4;
+            font-size: 20px;
+            margin: 20px;
+
+            &:hover{
+                color: $color2;
+            }
+        }
+        
+    }
+
+    
+#btn-menu{
+    display: none;
+
+}
+.boton-menu{
+    display: none;
+    font-size: 25px;
+    color: $color4;
+    margin-right: 10px;
+    cursor: pointer;
+    
+
+    &:hover{
+    color: $color2;
+    }
+    
+}
+}
+
+
+}
+
+
+@media (max-width:412px) {
+
+    
     header{
+        
     
         .encabezado{
             display: flex;
@@ -93,12 +263,12 @@ header{
             .logotipo{
                 width: 100px;
                 height: 80px;
-                margin-left: -100px;
+                margin-left: -60px;
                 }
                 .nombre-empresa{
-                    font-size:25px ;
+                    font-size: 20px ;
                     font-family: $font3;
-                    padding-top: 15px;
+                    padding-top: 17px;
                     color: $color4;
                     
                 }
@@ -106,13 +276,27 @@ header{
     
     
         
-        nav{
+        .menu{
             align-items: $alinear;
-            margin-right: 200px;
-            display: none;
+            position: absolute;
+            margin-top: 50px;
+            font-size: 30px;
+    
+            ul{
+                position: absolute;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                width: 412px;
+                transition: all 0.5s;
+                padding-bottom: 15px;
+                text-align: center;
+            
+            }
+    
     
             a{
-            margin: 25px;
             color: $color4;
             font-family: $font1;
             font-size: 16px;
@@ -160,10 +344,145 @@ header{
             }
             
         }
+    
+        
+    #btn-menu{
+        display: none;
+    
+    }
+    .boton-menu{
+        display: none;
+        font-size: 25px;
+        color: $color4;
+        margin-right: 10px;
+        cursor: pointer;
+        
+    
+        &:hover{
+        color: $color2;
+        }
+        
+    }
+    }
+    
+    
+    }
+    
+
+    @media (max-width:768px) {
+
+        
+    header{
+        
+    
+        .encabezado{
+            display: flex;
+            align-items: center;
+    
+            .logotipo{
+                width: 100px;
+                height: 80px;
+                margin-left: -60px;
+                }
+                .nombre-empresa{
+                    font-size: 20px ;
+                    font-family: $font3;
+                    padding-top: 17px;
+                    color: $color4;
+                    
+                }
+        }
+    
+    
+        
+        .menu{
+            align-items: $alinear;
+            position: absolute;
+            margin-top: 50px;
+            font-size: 30px;
+    
+            ul{
+                position: absolute;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+                width: 412px;
+                transition: all 0.5s;
+                padding-bottom: 15px;
+                text-align: center;
+            
+            }
+    
+    
+            a{
+            color: $color4;
+            font-family: $font1;
+            font-size: 16px;
+            text-decoration: none;
+            position: relative;
+    
+            &::after{
+            content:"";
+            width: 0;
+            height: 2px;
+            background-color: $color2;
+            position: absolute;
+            bottom: -8px;
+            right: 50%;
+            transition: all 0.4s ease;
+            will-change: width;
+            }
+            &:hover::after{
+                width: $ancho;
+                right: 0;
+    
+            }
+    
+            &:hover{
+                color: $color2;
+            }
+            }
+    
+            
+        }
+    
+        .icono{
+            margin-right: 40px;
+            align-items: $alinear;
+            display: none;
+    
+            i{
+                color: $color4;
+                font-size: 20px;
+                margin: 20px;
+    
+                &:hover{
+                    color: $color2;
+                }
+            }
+            
+        }
+    
+        
+    #btn-menu{
+        display: none;
+    
+    }
+    .boton-menu{
+        display: none;
+        font-size: 25px;
+        color: $color4;
+        margin-right: 10px;
+        cursor: pointer;
+        
+    
+        &:hover{
+        color: $color2;
+        }
+        
+    }
     }
 
-   
 
-    
-   
-}
+    }

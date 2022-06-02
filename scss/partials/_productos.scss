@@ -344,12 +344,12 @@
         }
 
         .descuento{
-            background-color: $color2;
-            margin-right: 180px;
+            
             border-radius: 5px;
             font-weight: bold;
             text-align: center;
-            font-size: 13px;
+            font-size: 14px;
+            position: absolute;
         
         }
         img{
@@ -525,23 +525,26 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
+               margin-left: 94px;
                margin-top: 20px;
 
                .contenedor{
-                max-width: 180px;
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
+
+                
             }
+            
             }
 
             .contenido2{
@@ -549,22 +552,22 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
+               margin-left: 94px;
                margin-top: 10px;
                margin-bottom: 10px;
 
                .contenedor{
-                max-width: 180px;
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             }
@@ -573,21 +576,21 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
-               margin-bottom: 10px;
+               margin-left: 94px;
+               margin-bottom: 130px;
 
                .contenedor{
-                max-width: 180px;
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             }
@@ -596,20 +599,20 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
+               margin-left: 94px;
 
                .contenedor{
-                max-width: 180px;
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             }
@@ -619,21 +622,59 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
+               margin-left: 94px;
 
                .contenedor{
-                max-width: 180px;
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
+
+                .descuento{
+                    position: absolute;
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 10px;
+                    width: 50px;
+                    
+                    
+                
+                }
+                img{
+                    width: $ancho;
+                    margin-top: 10px;
+                    
+                }
+                .informacion{
+                    text-align: $alinear;
+                }
+                h2{
+                    font-size: 15px;
+                    font-weight: bold;
+                    font-family: $font2;
+                }
+                .precio1{
+                    text-decoration: line-through;
+                    font-size: 15px;
+                    color: rgb(96, 95, 95);
+                    margin-left: 4px;
+                
+                }
+                span{
+                    font-size: 17px;
+                    margin-right: 170px;
+                
+                    
+                }
+                
             }
             }
             
@@ -642,20 +683,20 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 80px;
+                margin-left: 94px;
 
-               .contenedor{
-                max-width: 180px;
+                .contenedor{
+                max-width: 150px;
                 margin-top: 5px;
                 
             }
 
             .tarjeta{
-                width: 180px;
+                width: 150px;
 
                 img{
-                    width: 180px;
-                    height: 180px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             }

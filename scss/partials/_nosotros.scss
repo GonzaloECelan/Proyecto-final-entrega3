@@ -87,23 +87,32 @@
 
   .box{
     display: $displey;
-    height: 600px;
+    height: 800px;
+    background-color: #999;
 
     img{
       width: 375px;
-      height: 600px;
+      height: 800px;
+      display: none;
     }
 
     .contenedor2{
         max-width: 350px;
-        margin: auto;
+        margin-left: -200px;
+
         height: 500px;
-        margin-top: 50px;
+        margin-top: 270px;
+        
         position: absolute;
         background-color: rgba(0, 0, 0, 0.475);
         border-radius: 4px;
         box-shadow: 1px 10px 15px rgba(0, 0, 0, 1);
         backdrop-filter: blur(1px);
+
+        &:hover{
+          box-shadow: 1px 10px 15px rgba(0, 0, 0, 1);
+          backdrop-filter: blur(1px);
+        }
         
     }
     h3{

@@ -53,54 +53,60 @@
     }
 
     .carrusel-img{
-        height: 350px;
-        position: absolute;
+        height: 330px;
         width: 375px;
+        display: block;
+        margin-top: 240px;
     
         .banner1{
-            height: 350px;
+            height: 330px;
             object-fit: cover;
         }
         .banner2{
-            height: 350px;
+            height: 330px;
             
             object-fit: cover;
         
         }
         .banner3{
-            height: 350px;
+            height: 330px;
             object-fit: cover;
         }
     }
     
 }
 
-@media (max-width:412px) {
+// @media (max-width:412px) {
 
-    .banner4{
-        width: 400px;
-        height: 150px;
-    }
+//     .banner4{
+//         width: 400px;
+//         height: 150px;
+//     }
 
-    .carrusel-img{
-        height: 400px;
-        position: absolute;
-        width: 412px;
+//     .carrusel-img{
+//         margin-top: 230px;
+//         height: 400px;
+//         position: absolute;
+//         width: 412px;
     
-        .banner1{
-            height: 400px;
-            object-fit: cover;
-        }
-        .banner2{
-            height: 400px;
+//         .banner1{
+//             height: 400px;
+//             object-fit: cover;
+//         }
+//         .banner2{
+//             height: 400px;
             
-            object-fit: cover;
+//             object-fit: cover;
         
-        }
-        .banner3{
-            height: 400px;
-            object-fit: cover;
-        }
-    }
+//         }
+//         .banner3{
+//             height: 400px;
+//             object-fit: cover;
+//         }
+//     }
     
-}
+
+
+// @media (max-width:768px){
+    
+// }
