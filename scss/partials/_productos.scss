@@ -759,7 +759,7 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 110px;
+               margin-left: 100px;
                margin-top: 20px;
 
                .contenedor{
@@ -786,7 +786,7 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 94px;
+               margin-left: 100px;
                margin-top: 10px;
                margin-bottom: 10px;
 
@@ -810,7 +810,7 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 94px;
+               margin-left: 100px;
                margin-bottom: 130px;
 
                .contenedor{
@@ -833,7 +833,7 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 94px;
+               margin-left: 100px;
 
                .contenedor{
                 max-width: 170px;
@@ -856,7 +856,7 @@
                 justify-content: center;
                 flex-direction: column;
                 position: static;
-               margin-left: 94px;
+               margin-left: 100px;
 
                .contenedor{
                 max-width: 170px;
@@ -865,7 +865,7 @@
             }
 
             .tarjeta{
-                width: 150px;
+                width: 170px;
 
                 img{
                     width: 170px;
@@ -931,6 +931,243 @@
                 img{
                     width: 170px;
                     height: 170px;
+                }
+            }
+            }
+
+
+
+
+        }
+
+
+        @media (max-width: 768px) {
+
+            .pedidos{
+                display: $displey;
+                justify-content: $alinear;
+                background-image:linear-gradient(to right, rgb(188, 188, 188),white, white,white,rgb(188, 188, 188));
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: $ancho;
+                height: 35px;
+                box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5);
+            
+                .productos{
+                    color: $color1;
+                    font-family: $font1;
+                    font-size: 18px;
+                    text-align: $alinear;
+                    margin-top: -2px;
+                    position: absolute;
+                    
+                    
+                }
+                
+            }
+
+            .off{
+                margin-left: 250px;
+                margin-bottom: 20px;
+
+                button{
+                    font-size: 22px;
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                
+            }
+        
+            
+            
+        }
+
+        @media (max-width: 768px) {
+
+            
+
+            .contenido1{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+               margin-left: 5px;
+               
+
+               .contenedor{
+                max-width: 150px;
+                margin-top: 20px;
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+
+                
+            }
+            
+            }
+
+            .contenido2{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+               margin-left: 5px;
+              
+               
+
+               .contenedor{
+                max-width: 150px;
+                margin-top: 30px;
+                
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            }
+            .contenido3{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+               margin-left: 5px;
+               margin-bottom: 130px;
+
+               .contenedor{
+                max-width: 150px;
+                margin-top: 30px;
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            }
+            .contenido4{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+               margin-left: 5px;
+               
+
+               .contenedor{
+                max-width: 150px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            }
+
+            .contenido5{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+               margin-left: 5px;
+               margin-top: 15px;
+
+               .contenedor{
+                max-width: 150px;
+                margin-top: 5px;
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+
+                .descuento{
+                    position: absolute;
+                    font-weight: bold;
+                    text-align: center;
+                    font-size: 10px;
+                    width: 50px;
+                    
+                    
+                
+                }
+                img{
+                    width: $ancho;
+                    margin-top: 10px;
+                    
+                }
+                .informacion{
+                    text-align: $alinear;
+                }
+                h2{
+                    font-size: 15px;
+                    font-weight: bold;
+                    font-family: $font2;
+                }
+                .precio1{
+                    text-decoration: line-through;
+                    font-size: 15px;
+                    color: rgb(96, 95, 95);
+                    margin-left: 4px;
+                
+                }
+                span{
+                    font-size: 17px;
+                    margin-right: 170px;
+                
+                    
+                }
+                
+            }
+            }
+            
+            .contenido6{
+                display: $displey;
+                justify-content: center;
+                flex-direction: row;
+                position: static;
+                margin-left: 5px;
+               
+
+                .contenedor{
+                max-width: 150px;
+                margin-top: 30px;
+                margin-bottom: -20px;
+                
+            }
+
+            .tarjeta{
+                width: 150px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
                 }
             }
             }

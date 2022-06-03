@@ -65,6 +65,25 @@
       height: 350px;
       object-fit: cover; } }
 
+@media (max-width: 768px) {
+  .banner4 {
+    width: 760px;
+    height: 210px; }
+  .carrusel-img {
+    height: 370px;
+    width: 768px;
+    display: block;
+    margin-top: 240px; }
+    .carrusel-img .banner1 {
+      height: 370px;
+      object-fit: cover; }
+    .carrusel-img .banner2 {
+      height: 370px;
+      object-fit: cover; }
+    .carrusel-img .banner3 {
+      height: 370px;
+      object-fit: cover; } }
+
 .formulario {
   width: 400px;
   margin: auto;
@@ -175,6 +194,22 @@
     background-color: #fff; }
   .my-float {
     margin-top: 10px; } }
+
+@media (max-width: 768px) {
+  .formulario {
+    width: 390px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px); }
+    .formulario h2 {
+      text-align: center;
+      color: white;
+      padding-bottom: 15px;
+      font-family: "Germania One", cursive; } }
 
 .navegador, header {
   background-color: black;
@@ -438,6 +473,73 @@ footer {
       background-color: black;
       margin-left: -0px; } }
 
+@media (max-width: 768px) {
+  footer {
+    margin-bottom: -20px; }
+    footer .grupo_ {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 70px;
+      position: static; }
+      footer .grupo_ .caja1 {
+        margin-top: 30px;
+        padding-left: 150px;
+        padding-right: 40px; }
+        footer .grupo_ .caja1 .logopie {
+          width: 110px;
+          height: 90px;
+          margin-left: -10px; }
+        footer .grupo_ .caja1 h2 {
+          font-family: "Berkshire Swash", cursive;
+          color: white;
+          font-size: 20px;
+          margin-top: 1px;
+          margin-left: 10px; }
+      footer .grupo_ .caja2 {
+        margin-top: 40px;
+        padding-left: 10px; }
+        footer .grupo_ .caja2 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px;
+          margin-left: 30px; }
+        footer .grupo_ .caja2 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja2 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 10px;
+          cursor: pointer; }
+          footer .grupo_ .caja2 li:hover {
+            color: #E59866; }
+      footer .grupo_ .caja3 {
+        margin-top: 40px;
+        padding-left: 200px; }
+        footer .grupo_ .caja3 h3 {
+          font-family: "Germania One", cursive;
+          color: white;
+          font-size: 15px; }
+        footer .grupo_ .caja3 ul {
+          color: white;
+          list-style: none; }
+        footer .grupo_ .caja3 li {
+          line-height: 2;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          margin-left: -30px; }
+        footer .grupo_ .caja3 i {
+          color: white; }
+          footer .grupo_ .caja3 i:hover {
+            color: #E59866; }
+    footer .seguridad {
+      width: 768px;
+      color: white;
+      margin-top: 150px;
+      font-size: 12px;
+      background-color: black; } }
+
 .navegador, header {
   background-color: black;
   width: 100%;
@@ -576,7 +678,7 @@ header .boton-menu {
         header .menu ul li {
           transition: all 0.5s; }
           header .menu ul li:hover {
-            transform: scale(1.1); }
+            transform: scale(1.2); }
       header .menu a {
         color: white;
         font-family: "Germania One", cursive;
@@ -635,24 +737,21 @@ header .boton-menu {
       color: white;
       margin-left: 10px; }
   header .menu {
-    align-items: center;
     position: absolute;
     margin-top: 50px;
     font-size: 30px; }
     header .menu ul {
-      position: absolute;
       list-style: none;
       display: flex;
       flex-direction: column;
       background-color: black;
       width: 412px;
       transition: all 0.5s;
-      padding-bottom: 15px;
-      text-align: center; }
+      padding-bottom: 15px; }
       header .menu ul li {
         transition: all 0.5s; }
         header .menu ul li:hover {
-          transform: scale(1.1); }
+          transform: scale(1.2); }
     header .menu a {
       color: white;
       font-family: "Germania One", cursive;
@@ -719,10 +818,14 @@ header .boton-menu {
       display: flex;
       flex-direction: column;
       background-color: black;
-      width: 412px;
+      width: 768px;
       transition: all 0.5s;
       padding-bottom: 15px;
       text-align: center; }
+      header .menu ul li {
+        transition: all 0.5s; }
+        header .menu ul li:hover {
+          transform: scale(1.2); }
     header .menu a {
       color: white;
       font-family: "Germania One", cursive;
@@ -747,11 +850,11 @@ header .boton-menu {
   header .icono {
     margin-right: 40px;
     align-items: center;
-    display: none; }
+    display: block; }
     header .icono i {
       color: white;
-      font-size: 20px;
-      margin: 20px; }
+      font-size: 15px;
+      margin: 15px; }
       header .icono i:hover {
         color: #E59866; }
   header #btn-menu {
@@ -891,6 +994,53 @@ header .boton-menu {
       margin-left: 10px;
       height: 500px;
       margin-top: 270px;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.475);
+      border-radius: 4px;
+      box-shadow: 1px 10px 15px black;
+      backdrop-filter: blur(1px); }
+      .box .contenedor2:hover {
+        box-shadow: 1px 10px 15px black;
+        backdrop-filter: blur(1px);
+        transform: translateX(0%); }
+    .box h3 {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: italic;
+      border-bottom: 3px solid white;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .box p {
+      text-align: center;
+      line-height: 2;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+      margin-left: 10px;
+      font-weight: bold;
+      position: absolute;
+      color: white; } }
+
+@media (max-width: 768px) {
+  .box {
+    display: flex;
+    height: 800px;
+    background-color: #505050; }
+    .box img {
+      margin-top: 240px;
+      width: 768px;
+      height: 600px;
+      display: block; }
+    .box .contenedor2 {
+      max-width: 390px;
+      margin: auto;
+      margin-left: 10px;
+      height: 500px;
+      margin-top: 280px;
       position: absolute;
       background-color: rgba(0, 0, 0, 0.475);
       border-radius: 4px;
@@ -1401,7 +1551,7 @@ header .boton-menu {
     justify-content: center;
     flex-direction: column;
     position: static;
-    margin-left: 110px;
+    margin-left: 100px;
     margin-top: 20px; }
     .contenido1 .contenedor {
       max-width: 170px;
@@ -1416,7 +1566,7 @@ header .boton-menu {
     justify-content: center;
     flex-direction: column;
     position: static;
-    margin-left: 94px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 10px; }
     .contenido2 .contenedor {
@@ -1432,7 +1582,7 @@ header .boton-menu {
     justify-content: center;
     flex-direction: column;
     position: static;
-    margin-left: 94px;
+    margin-left: 100px;
     margin-bottom: 130px; }
     .contenido3 .contenedor {
       max-width: 170px;
@@ -1447,7 +1597,7 @@ header .boton-menu {
     justify-content: center;
     flex-direction: column;
     position: static;
-    margin-left: 94px; }
+    margin-left: 100px; }
     .contenido4 .contenedor {
       max-width: 170px;
       margin-top: 5px; }
@@ -1461,12 +1611,12 @@ header .boton-menu {
     justify-content: center;
     flex-direction: column;
     position: static;
-    margin-left: 94px; }
+    margin-left: 100px; }
     .contenido5 .contenedor {
       max-width: 170px;
       margin-top: 5px; }
     .contenido5 .tarjeta {
-      width: 150px; }
+      width: 170px; }
       .contenido5 .tarjeta img {
         width: 170px;
         height: 170px; }
@@ -1507,6 +1657,142 @@ header .boton-menu {
       .contenido6 .tarjeta img {
         width: 170px;
         height: 170px; } }
+
+@media (max-width: 768px) {
+  .pedidos {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #bcbcbc, white, white, white, #bcbcbc);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 0 1px 10px rgba(6, 6, 6, 0.5); }
+    .pedidos .productos {
+      color: black;
+      font-family: "Germania One", cursive;
+      font-size: 18px;
+      text-align: center;
+      margin-top: -2px;
+      position: absolute; }
+  .off {
+    margin-left: 250px;
+    margin-bottom: 20px; }
+    .off button {
+      font-size: 22px;
+      background-color: rgba(255, 255, 255, 0); } }
+
+@media (max-width: 768px) {
+  .contenido1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido1 .contenedor {
+      max-width: 150px;
+      margin-top: 20px; }
+    .contenido1 .tarjeta {
+      width: 150px; }
+      .contenido1 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido2 .contenedor {
+      max-width: 150px;
+      margin-top: 30px; }
+    .contenido2 .tarjeta {
+      width: 150px; }
+      .contenido2 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px;
+    margin-bottom: 130px; }
+    .contenido3 .contenedor {
+      max-width: 150px;
+      margin-top: 30px; }
+    .contenido3 .tarjeta {
+      width: 150px; }
+      .contenido3 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido4 .contenedor {
+      max-width: 150px;
+      margin-top: 5px; }
+    .contenido4 .tarjeta {
+      width: 150px; }
+      .contenido4 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+  .contenido5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px;
+    margin-top: 15px; }
+    .contenido5 .contenedor {
+      max-width: 150px;
+      margin-top: 5px; }
+    .contenido5 .tarjeta {
+      width: 150px; }
+      .contenido5 .tarjeta img {
+        width: 150px;
+        height: 150px; }
+      .contenido5 .tarjeta .descuento {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        width: 50px; }
+      .contenido5 .tarjeta img {
+        width: 100%;
+        margin-top: 10px; }
+      .contenido5 .tarjeta .informacion {
+        text-align: center; }
+      .contenido5 .tarjeta h2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; }
+      .contenido5 .tarjeta .precio1 {
+        text-decoration: line-through;
+        font-size: 15px;
+        color: #605f5f;
+        margin-left: 4px; }
+      .contenido5 .tarjeta span {
+        font-size: 17px;
+        margin-right: 170px; }
+  .contenido6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: static;
+    margin-left: 5px; }
+    .contenido6 .contenedor {
+      max-width: 150px;
+      margin-top: 30px;
+      margin-bottom: -20px; }
+    .contenido6 .tarjeta {
+      width: 150px; }
+      .contenido6 .tarjeta img {
+        width: 150px;
+        height: 150px; } }
 
 .ubicacion1 {
   width: 600px;
@@ -1601,6 +1887,30 @@ header .boton-menu {
       border-radius: 10px;
       margin-left: 15px; } }
 
+@media (max-width: 768px) {
+  .ubicacion1 {
+    width: 500px;
+    margin: auto;
+    height: 550px;
+    margin-top: 300px;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    border-radius: 6px; }
+    .ubicacion1 h1 {
+      text-align: center;
+      padding-top: 25px;
+      font-family: "Germania One", cursive;
+      color: white;
+      font-size: 22px; }
+    .ubicacion1 iframe {
+      width: 470px;
+      height: 400px;
+      margin-top: 30px;
+      border-radius: 10px;
+      margin-left: 15px; } }
+
 .contenedor-img {
   width: 100%;
   max-width: 1200px;
@@ -1685,6 +1995,33 @@ header .boton-menu {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px;
+    gap: 15px; }
+    .contenedor-img .caja {
+      width: 100%;
+      height: 200px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      border-radius: 3px; }
+      .contenedor-img .caja:hover {
+        transform: scale(1.04);
+        box-shadow: 0 0 3em rgba(5, 5, 5, 0.6);
+        border-radius: 3px; }
+    .contenedor-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 3px; } }
+
+@media (max-width: 768px) {
+  .contenedor-img {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 285px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 200px;
     gap: 15px; }
     .contenedor-img .caja {

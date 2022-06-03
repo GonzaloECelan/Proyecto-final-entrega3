@@ -143,3 +143,26 @@
   }
 
 }
+
+
+@media (max-width:768px) {
+
+  .formulario{
+    width: 390px;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 80px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(0, 0, 0, 0.588);
+    box-shadow: 7px 20px 20px #000;
+    backdrop-filter: blur(3px);
+    
+    h2{
+        text-align: $alinear;
+        color: $color4;
+        padding-bottom: 15px;
+        font-family: $font1;
+    }
+}
+  
+}

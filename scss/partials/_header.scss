@@ -161,7 +161,7 @@ header{
 
                 transition: all 0.5s;
                 &:hover{
-                    transform: scale(1.1);
+                    transform: scale(1.2);
                 }
             }
 
@@ -279,13 +279,13 @@ header{
     
         
         .menu{
-            align-items: $alinear;
+            
             position: absolute;
             margin-top: 50px;
             font-size: 30px;
     
             ul{
-                position: absolute;
+                
                 list-style: none;
                 display: flex;
                 flex-direction: column;
@@ -293,13 +293,12 @@ header{
                 width: 412px;
                 transition: all 0.5s;
                 padding-bottom: 15px;
-                text-align: center;
 
                 li{
 
                     transition: all 0.5s;
                     &:hover{
-                        transform: scale(1.1);
+                        transform: scale(1.2);
                     }
                 }
             
@@ -417,10 +416,18 @@ header{
                 display: flex;
                 flex-direction: column;
                 background-color: black;
-                width: 412px;
+                width: 768px;
                 transition: all 0.5s;
                 padding-bottom: 15px;
                 text-align: center;
+
+                li{
+
+                    transition: all 0.5s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
             
             }
     
@@ -460,12 +467,12 @@ header{
         .icono{
             margin-right: 40px;
             align-items: $alinear;
-            display: none;
+            display: block;
     
             i{
                 color: $color4;
-                font-size: 20px;
-                margin: 20px;
+                font-size: 15px;
+                margin: 15px;
     
                 &:hover{
                     color: $color2;
