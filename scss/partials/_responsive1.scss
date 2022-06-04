@@ -3,7 +3,7 @@
 
 // responsive header
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     
     header{
@@ -34,7 +34,6 @@
         .menu{
             align-items: $alinear;
             position: absolute;
-            margin-top: 50px;
             font-size: 30px;
     
             ul{
@@ -45,7 +44,8 @@
                 background-color: black;
                 width: 375px;
                 transition: all 0.5s;
-                padding-bottom: 15px;
+                padding-bottom: 18px;
+                margin-top: 44px;
                
     
                 li{
@@ -142,7 +142,7 @@
     }
 
 // responsive footer
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     footer{
         
@@ -264,7 +264,7 @@
 
 // responsive productos
 
-@media all and (max-width: 375px) {
+@media screen and (min-width: 375px) {
 
     .pedidos{
         display: $displey;
@@ -305,7 +305,7 @@
     
 }
 
-@media all and (max-width: 375px) {
+@media screen and (min-width: 375px) {
 
     
 
@@ -497,7 +497,7 @@
 
 // responsive contacto
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     .formulario{
       width: 360px;
@@ -519,7 +519,7 @@
     
   }
   
-  @media all and (max-width:375px) {
+  @media screen and (min-width:375px) {
   
     .float{
       position:fixed;
@@ -549,7 +549,7 @@
 
 // responsive galeria
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     .contenedor-img{
       width: $ancho;
@@ -597,7 +597,7 @@
 // responsive banner
 
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     .banner4{
         width: 370px;
@@ -631,7 +631,7 @@
 // responsive nosotros
 
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     .box{
       display: $displey;
@@ -699,7 +699,7 @@
 
 // responsive ubicación
 
-@media all and (max-width:375px) {
+@media screen and (min-width:375px) {
 
     .ubicacion1{
       width: 370px;

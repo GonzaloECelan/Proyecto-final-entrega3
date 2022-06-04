@@ -3,7 +3,7 @@
 
 
 // responsive header
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     
     header{
@@ -45,7 +45,7 @@
                 width: 412px;
                 transition: all 0.5s;
                 padding-bottom: 15px;
-                margin-top: 296px;
+                margin-top: 20px;
 
                 li{
                     text-align: center;
@@ -134,7 +134,7 @@
 // reponsive footer
 
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
     
     footer{
         
@@ -255,7 +255,7 @@
 
 // responsive productos
 
-@media all and (max-width: 412px) {
+@media screen and (min-width: 412px) {
 
     .pedidos{
         display: $displey;
@@ -298,7 +298,7 @@
 
 
 
-@media all and (max-width: 412px) {
+@media screen and (min-width: 412px) {
 
     
 
@@ -483,7 +483,7 @@
     }
 
     .tarjeta{
-        width: 170px;
+        width: 240px;
 
         img{
             width: 240px;
@@ -499,7 +499,7 @@
 
 // responsive contacto
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .formulario{
       width: 390px;
@@ -521,7 +521,7 @@
     
   }
   
-  @media all and (max-width:412px) {
+  @media screen and (min-width:412px) {
   
     .float{
       position:fixed;
@@ -552,7 +552,7 @@
 
 // responsive galeria
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
 
     .contenedor-img{
@@ -599,7 +599,7 @@
 
 // responsive banner
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .banner4{
         width: 400px;
@@ -633,7 +633,7 @@
 
 // reponsive nosotros
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .box{
       display: $displey;
@@ -701,7 +701,7 @@
 
 // responsive ubicación
 
-@media all and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .ubicacion1{
       width: 390px;
