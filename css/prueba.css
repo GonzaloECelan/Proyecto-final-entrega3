@@ -845,7 +845,7 @@ header .boton-menu {
   margin-top: 15px;
   margin-bottom: 10px; }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   header {
     width: 375px; }
     header .encabezado {
@@ -919,9 +919,7 @@ header .boton-menu {
       margin-right: 10px;
       cursor: pointer; }
       header .boton-menu:hover {
-        color: #E59866; } }
-
-@media screen and (min-width: 375px) {
+        color: #E59866; }
   footer {
     margin-bottom: -20px; }
     footer .grupo_ {
@@ -987,9 +985,7 @@ header .boton-menu {
       margin-top: -40px;
       font-size: 10px;
       background-color: black;
-      margin-left: -0px; } }
-
-@media screen and (min-width: 375px) {
+      margin-left: -0px; }
   .pedidos {
     display: flex;
     justify-content: center;
@@ -1011,9 +1007,7 @@ header .boton-menu {
     margin-bottom: 20px; }
     .off button {
       font-size: 20px;
-      background-color: rgba(255, 255, 255, 0); } }
-
-@media screen and (min-width: 375px) {
+      background-color: rgba(255, 255, 255, 0); }
   .contenido1 {
     display: flex;
     justify-content: center;
@@ -1124,9 +1118,7 @@ header .boton-menu {
       width: 200px; }
       .contenido6 .tarjeta img {
         width: 200px;
-        height: 200px; } }
-
-@media screen and (min-width: 375px) {
+        height: 200px; }
   .formulario {
     width: 360px;
     margin: auto;
@@ -1140,30 +1132,7 @@ header .boton-menu {
       text-align: center;
       color: white;
       padding-bottom: 15px;
-      font-family: "Germania One", cursive; } }
-
-@media screen and (min-width: 375px) {
-  .float {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 40px;
-    right: 20px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 20px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100; }
-  .float:hover {
-    text-decoration: none;
-    color: #25d366;
-    background-color: #fff; }
-  .my-float {
-    margin-top: 10px; } }
-
-@media screen and (min-width: 375px) {
+      font-family: "Germania One", cursive; }
   .contenedor-img {
     width: 100%;
     max-width: 350px;
@@ -1188,9 +1157,7 @@ header .boton-menu {
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: 3px; } }
-
-@media screen and (min-width: 375px) {
+      border-radius: 3px; }
   .banner4 {
     width: 370px;
     height: 130px; }
@@ -1207,9 +1174,7 @@ header .boton-menu {
       object-fit: cover; }
     .carrusel-img .banner3 {
       height: 330px;
-      object-fit: cover; } }
-
-@media screen and (min-width: 375px) {
+      object-fit: cover; }
   .box {
     display: flex;
     height: 800px;
@@ -1253,9 +1218,7 @@ header .boton-menu {
       margin-left: 10px;
       font-weight: bold;
       position: absolute;
-      color: white; } }
-
-@media screen and (min-width: 375px) {
+      color: white; }
   .ubicacion1 {
     width: 370px;
     margin: auto;
@@ -1279,47 +1242,7 @@ header .boton-menu {
       border-radius: 10px;
       margin-left: 15px; } }
 
-.navegador, header {
-  background-color: black;
-  width: 100%;
-  height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.piedepagina, footer {
-  width: 100%;
-  background-color: black;
-  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
-
-.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-  padding: 5px 10px 5px 10px;
-  margin-left: 80px;
-  margin-right: 80px;
-  position: static; }
-
-.boton_, .comprar- button {
-  padding: 5px 25px;
-  border: unset;
-  border-radius: 15px;
-  color: #212121;
-  z-index: 1;
-  background: #e8e8e8;
-  position: relative;
-  font-size: 15px;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  transition: all 250ms;
-  overflow: hidden;
-  margin-top: 15px;
-  margin-bottom: 10px; }
-
-@media screen and (min-width: 412px) {
+@media screen and (max-width: 412px) {
   header {
     width: 100%; }
     header .encabezado {
@@ -1393,9 +1316,7 @@ header .boton-menu {
       margin-right: 10px;
       cursor: pointer; }
       header .boton-menu:hover {
-        color: #E59866; } }
-
-@media screen and (min-width: 412px) {
+        color: #E59866; }
   footer {
     margin-bottom: -20px; }
     footer .grupo_ {
@@ -1461,9 +1382,7 @@ header .boton-menu {
       margin-top: -40px;
       font-size: 10px;
       background-color: black;
-      margin-left: -0px; } }
-
-@media screen and (min-width: 412px) {
+      margin-left: -0px; }
   .pedidos {
     display: flex;
     justify-content: center;
@@ -1485,9 +1404,7 @@ header .boton-menu {
     margin-bottom: 20px; }
     .off button {
       font-size: 22px;
-      background-color: rgba(255, 255, 255, 0); } }
-
-@media screen and (min-width: 412px) {
+      background-color: rgba(255, 255, 255, 0); }
   .contenido1 {
     display: flex;
     justify-content: center;
@@ -1604,9 +1521,7 @@ header .boton-menu {
       width: 240px; }
       .contenido6 .tarjeta img {
         width: 240px;
-        height: 240px; } }
-
-@media screen and (min-width: 412px) {
+        height: 240px; }
   .formulario {
     width: 390px;
     margin: auto;
@@ -1620,30 +1535,7 @@ header .boton-menu {
       text-align: center;
       color: white;
       padding-bottom: 15px;
-      font-family: "Germania One", cursive; } }
-
-@media screen and (min-width: 412px) {
-  .float {
-    position: fixed;
-    width: 45px;
-    height: 45px;
-    bottom: 45px;
-    right: 20px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 25px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100; }
-  .float:hover {
-    text-decoration: none;
-    color: #25d366;
-    background-color: #fff; }
-  .my-float {
-    margin-top: 10px; } }
-
-@media screen and (min-width: 412px) {
+      font-family: "Germania One", cursive; }
   .contenedor-img {
     width: 100%;
     max-width: 390px;
@@ -1668,9 +1560,7 @@ header .boton-menu {
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: 3px; } }
-
-@media screen and (min-width: 412px) {
+      border-radius: 3px; }
   .banner4 {
     width: 400px;
     height: 150px; }
@@ -1687,9 +1577,7 @@ header .boton-menu {
       object-fit: cover; }
     .carrusel-img .banner3 {
       height: 350px;
-      object-fit: cover; } }
-
-@media screen and (min-width: 412px) {
+      object-fit: cover; }
   .box {
     display: flex;
     height: 800px;
@@ -1733,9 +1621,7 @@ header .boton-menu {
       margin-left: 10px;
       font-weight: bold;
       position: absolute;
-      color: white; } }
-
-@media screen and (min-width: 412px) {
+      color: white; }
   .ubicacion1 {
     width: 390px;
     margin: auto;
@@ -1759,47 +1645,7 @@ header .boton-menu {
       border-radius: 10px;
       margin-left: 15px; } }
 
-.navegador, header {
-  background-color: black;
-  width: 100%;
-  height: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.piedepagina, footer {
-  width: 100%;
-  background-color: black;
-  box-shadow: 10px -2px 10px rgba(7, 7, 7, 0.5); }
-
-.boton, .contenido1 .comprar, .contenido2 .comprar, .contenido3 .comprar, .contenido4 .comprar, .contenido6 .comprar {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-  padding: 5px 10px 5px 10px;
-  margin-left: 80px;
-  margin-right: 80px;
-  position: static; }
-
-.boton_, .comprar- button {
-  padding: 5px 25px;
-  border: unset;
-  border-radius: 15px;
-  color: #212121;
-  z-index: 1;
-  background: #e8e8e8;
-  position: relative;
-  font-size: 15px;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
-  transition: all 250ms;
-  overflow: hidden;
-  margin-top: 15px;
-  margin-bottom: 10px; }
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   header .encabezado {
     display: flex;
     align-items: center; }
@@ -1871,9 +1717,7 @@ header .boton-menu {
     margin-right: 10px;
     cursor: pointer; }
     header .boton-menu:hover {
-      color: #E59866; } }
-
-@media screen and (min-width: 768px) {
+      color: #E59866; }
   footer {
     margin-bottom: -20px; }
     footer .grupo_ {
@@ -1938,9 +1782,7 @@ header .boton-menu {
       color: white;
       margin-top: 150px;
       font-size: 12px;
-      background-color: black; } }
-
-@media screen and (min-width: 768px) {
+      background-color: black; }
   .pedidos {
     display: flex;
     justify-content: center;
@@ -1962,9 +1804,7 @@ header .boton-menu {
     margin-bottom: 20px; }
     .off button {
       font-size: 22px;
-      background-color: rgba(255, 255, 255, 0); } }
-
-@media screen and (min-width: 768px) {
+      background-color: rgba(255, 255, 255, 0); }
   .contenido1 {
     display: flex;
     justify-content: center;
@@ -2074,9 +1914,7 @@ header .boton-menu {
       width: 150px; }
       .contenido6 .tarjeta img {
         width: 150px;
-        height: 150px; } }
-
-@media screen and (min-width: 768px) {
+        height: 150px; }
   .banner4 {
     width: 760px;
     height: 210px; }
@@ -2093,9 +1931,7 @@ header .boton-menu {
       object-fit: cover; }
     .carrusel-img .banner3 {
       height: 370px;
-      object-fit: cover; } }
-
-@media screen and (min-width: 768px) {
+      object-fit: cover; }
   .box {
     display: flex;
     height: 800px;
@@ -2140,9 +1976,7 @@ header .boton-menu {
       margin-left: 10px;
       font-weight: bold;
       position: absolute;
-      color: white; } }
-
-@media screen and (min-width: 768px) {
+      color: white; }
   .formulario {
     width: 390px;
     margin: auto;
@@ -2156,9 +1990,7 @@ header .boton-menu {
       text-align: center;
       color: white;
       padding-bottom: 15px;
-      font-family: "Germania One", cursive; } }
-
-@media screen and (min-width: 768px) {
+      font-family: "Germania One", cursive; }
   .ubicacion1 {
     width: 500px;
     margin: auto;
@@ -2180,9 +2012,7 @@ header .boton-menu {
       height: 400px;
       margin-top: 30px;
       border-radius: 10px;
-      margin-left: 15px; } }
-
-@media screen and (min-width: 768px) {
+      margin-left: 15px; }
   .contenedor-img {
     width: 100%;
     max-width: 750px;
